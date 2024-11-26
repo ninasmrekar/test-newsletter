@@ -1,0 +1,149 @@
+@media only screen and (max-width: 599px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: #fcdde3;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        height: 100vh;
+    }
+
+    img{
+       height: 50%;
+       margin-bottom: 1rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 50%;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: #fcdde3;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        height: 100vh;
+    }
+
+    img{
+       height: 60%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 4rem;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p{
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: #fcdde3;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    img{
+        width: 50%;
+        height: 100%;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 4rem;
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p{
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+button{
+    background-color: #fa4065;
+    border: 1px solid #fa4065;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color: #fa6180;
+    border: 1px solid #fa6180;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form{
+    margin-bottom: 1rem;
+}
+
+span{
+    font-size: 1rem;
+    color: #fa4065;
+}
+
+.hidden{
+    display: none;
+}
